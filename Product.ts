@@ -7,26 +7,25 @@ import { Stock } from "./Stock.ts";
 import { Supplier } from "./Supplier.ts";
 
 export interface Product {
-  readonly recordID: RecordID
-  readonly productID: ProductID
-  readonly name: string
-  readonly color?: Color
-  readonly brand?: Brand
-  readonly description?: string
-  readonly fabric?: Fabric
-  readonly size?: Size
-  readonly suppliers?: Supplier[]
-  readonly basePrice: Price
-  readonly mortgagePrice: Price 
-  readonly publicPrice: Price
-  readonly lowStockAlert?: boolean
-  readonly publicStockQuantity: Stock
-  readonly privateStockQuantity: Stock
-  readonly totalStockQuantity: Stock 
-  readonly lowStockAlertQuantity?: number
-  readonly mortagePriceRelation: number
-  readonly publicPriceRelation: number
-
+  recordID: RecordID
+  productID: ProductID
+  name: string
+  color?: Color
+  brand?: Brand
+  description?: string
+  fabric?: Fabric
+  size?: Size
+  suppliers?: Supplier[]
+  basePrice: Price
+  mortgagePrice: Price 
+  publicPrice: Price
+  lowStockAlert?: boolean
+  publicStockQuantity: Stock
+  privateStockQuantity: Stock
+  totalStockQuantity: Stock 
+  lowStockAlertQuantity?: number
+  mortagePriceRelation: number
+  publicPriceRelation: number
 }
 
 type RecordID = number
