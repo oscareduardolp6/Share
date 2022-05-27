@@ -1,4 +1,4 @@
-import { SiteTypesEnum } from "./SiteTypes.ts";
+import { SiteTypesEnum } from "./SiteTypes";
 
 export interface TransactionDTO {
   transactionId: number
