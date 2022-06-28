@@ -5,7 +5,7 @@ export interface SellerDTO {
   secondLastName: string
 }
 
-const initializedSeller: SellerDTO = {
+export const initializedSeller: SellerDTO = {
   firstLastName: '', 
   names: '', 
   id: 0, 
