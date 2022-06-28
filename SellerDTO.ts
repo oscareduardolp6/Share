@@ -4,3 +4,10 @@ export interface SellerDTO {
   firstLastName: string 
   secondLastName: string
 }
+
+const initializedSeller: SellerDTO = {
+  firstLastName: '', 
+  names: '', 
+  id: 0, 
+  secondLastName: ''
+}
