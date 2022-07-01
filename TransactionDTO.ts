@@ -11,6 +11,7 @@ export interface TransactionDTO {
   type: TransactionTypes
   fromSite: SiteTypesEnum
   toSite: SiteTypesEnum
+  sellerId?: number
 }
 
 export enum TransactionTypes {

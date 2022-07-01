@@ -3,4 +3,5 @@ export interface OrderRowDTO {
   clientID: string
   privateSiteQuantity: number
   publicSiteQuantity: number
+  sellerID: string 
 }
