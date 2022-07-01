@@ -1,10 +1,10 @@
-import { Brand } from "./Brand";
-import { Color } from "./Color";
-import { Fabric } from "./Fabric";
-import { Price } from "./Price";
-import { Size } from "./Size";
-import { Stock } from "./Stock";
-import { Supplier } from "./Supplier";
+import { Brand } from "./Brand.ts";
+import { Color } from "./Color.ts";
+import { Fabric } from "./Fabric.ts";
+import { Price } from "./Price.ts";
+import { Size } from "./Size.ts";
+import { Stock } from "./Stock.ts";
+import { Supplier } from "./Supplier.ts";
 
 export interface Product {
   recordID: RecordID
