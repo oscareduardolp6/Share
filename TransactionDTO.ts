@@ -10,7 +10,8 @@ export interface TransactionDTO {
   supplierId: string 
   type: TransactionTypes
   fromSite: SiteTypesEnum
-  toSite: SiteTypesEnum
+  toSite: SiteTypesEnum, 
+  sellerId?: number
 }
 
 export enum TransactionTypes {
