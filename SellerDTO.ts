@@ -11,3 +11,5 @@ export const initializedSeller: SellerDTO = {
   id: 0, 
   secondLastName: ''
 }
+
+export type Selltype = 'Hipóteca' | 'Pública'
