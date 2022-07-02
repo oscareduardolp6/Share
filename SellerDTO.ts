@@ -12,4 +12,4 @@ export const initializedSeller: SellerDTO = {
   secondLastName: ''
 }
 
-export type Selltype = 'Hipóteca' | 'Público'
+export type SellTypes = 'Hipóteca' | 'Público'
