@@ -5,6 +5,8 @@ export interface SellerDTO {
   secondLastName: string
 }
 
+export type SellTypes = 'Hipóteca' | 'Pública'
+
 export const initializedSeller: SellerDTO = {
   firstLastName: '', 
   names: '', 
