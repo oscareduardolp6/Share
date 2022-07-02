@@ -7,5 +7,6 @@ export interface OrderRowDTO {
   publicSiteQuantity: number
   sellerID: string
   sellType: TransactionTypes
+  folio?: string
 }
 
