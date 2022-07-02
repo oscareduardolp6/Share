@@ -13,6 +13,7 @@ export interface TransactionDTO {
   toSite: SiteTypesEnum
   sellerId?: number
   sellerName?: string
+  folio?: string
 }
 
 export enum TransactionTypes {
