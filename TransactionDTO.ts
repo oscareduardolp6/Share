@@ -14,6 +14,8 @@ export interface TransactionDTO {
   sellerId?: number
   sellerName?: string
   folio?: string
+  productCategory?: string
+
 }
 
 export enum TransactionTypes {
