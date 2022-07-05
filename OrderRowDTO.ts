@@ -8,4 +8,5 @@ export interface OrderRowDTO {
   sellerID: string
   sellType: TransactionTypes
   folio?: string
+  price: number 
 }
